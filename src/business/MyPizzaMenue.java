@@ -1,7 +1,7 @@
 package business;
 
 
-public class PizzaShop2 extends Pizza2 implements DevelopBusinessExtension, DevelopBusiness {
+public class MyPizzaMenue extends OvenPizza implements DevelopBusinessExtension, DevelopBusiness {
 
 	@Override
 	public void itemDeatails() {
@@ -10,17 +10,12 @@ public class PizzaShop2 extends Pizza2 implements DevelopBusinessExtension, Deve
 	}
 
 	@Override
-	public void netAmountPay (){
+	public void productPrice (){
 		System.out.println("This is the price You have to pay : ");
 		
 	}
 
-	@Override
-	public void wellcome() {
-		System.out.println("Wellcome to our Store");
-		
-	}
-
+	
 	
 	@Override
 	public void storeAdress() {
@@ -32,6 +27,12 @@ public class PizzaShop2 extends Pizza2 implements DevelopBusinessExtension, Deve
 	public void storeName() {
 		System.out.println("*******VAI VAI STORE*******");
 	
+	}
+
+	@Override
+	public void handMadePizza() {
+	
+		System.out.println("Making Hand Made Pizza ");
 	}
 	
 
