@@ -9,18 +9,19 @@ public class TestPizza {
 		PizzaShop myPizza =new  PizzaShop();
 		
 		
-		myPizza.storeName();
-		myPizza.storeAdress();
-		myPizza.itemDeatails();
-		myPizza.setCustomername("Arif");
-		System.out.println("Customer Name: "+ myPizza.getCustomername());
-		myPizza.setCustomerPhoneNumber("0192826356");
-		System.out.println("Customer Phone Number: " +myPizza.getCustomerPhoneNumber());
-		
-		System.out.println("============================================");
-		
-		myPizza.handMadePizza();
-		myPizza.ovenPizza();
+//		myPizza.storeName();
+//		myPizza.storeAdress();
+//		myPizza.itemDeatails();
+//		myPizza.setCustomername("Arif");
+//		System.out.println("Customer Name: "+ myPizza.getCustomername());
+//		myPizza.setCustomerPhoneNumber("0192826356");
+//		System.out.println("Customer Phone Number: " +myPizza.getCustomerPhoneNumber());
+//		
+//		System.out.println("============================================");
+//		
+//		myPizza.handMadePizza();
+//	
+		myPizza.pizzaType();
 		
 		System.out.println("============================================");
 		

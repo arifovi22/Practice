@@ -11,7 +11,7 @@ public class MyPizzaMenue extends OvenPizza implements DevelopBusinessExtension,
 
 	@Override
 	public void productPrice (){
-		System.out.println("This is the price You have to pay : ");
+
 		
 	}
 
